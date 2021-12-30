@@ -49,25 +49,31 @@ body {
 }
 
 .conteiner {
-	max-width: 1440px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .header {
 	border: 2px solid red;
-	background-color: #374859;
+	background-color: #1e656d;
+	
 }
+
+.nav {
+	
+}
+
 
 .nav-list {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	padding: 0 20px;
-	line-height: 50px;
+	line-height: 70px;
 }
 
 .nav-item {
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .nav-link {
@@ -77,11 +83,54 @@ body {
 }
 
 .nav-link:hover {
-	color: rgb(115, 115, 114);
+	color: rgb(159, 159, 154);
 }
 .main {
 	border: 2px solid red;
+	background-color: #f1f3ce;
+	color: #445161;
 }
+
+.section {
+	display: flex;
+	padding: 30px;
+	
+	
+}
+
+.section-img {
+	box-shadow: 3px 3px 15px 5px rgb(201, 184, 184);
+}
+.section-profile {
+	margin-left: 90px;
+}
+.section-title {
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-job {
+	font-size: 25px;
+	text-indent: 440px;
+	margin-bottom: 50px;
+}
+.section-aboutme {
+}
+.title-aboutme {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.text-aboutme {
+	font-size: 20px;
+	line-height: 32px;
+	text-align: justify;
+}
+
+
 .footer {
 	border: 2px solid red;
 }
