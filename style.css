@@ -35,3 +35,190 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	min-height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #1e656d;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 20px;
+	line-height: 70px;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.nav-link {
+	color: #fff;
+	font-size: 18px;
+	transition: color 0.5s;
+}
+
+.nav-link:hover {
+	color: rgb(159, 159, 154);
+}
+.main {
+	color: #445161;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.title {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.columns {
+	display: flex;
+	width: 100%;
+	padding: 50px;
+	background-color: #f1f3ce;
+	letter-spacing: 1px;
+}
+
+.column1 {
+	width: 35%;
+}
+
+.img {
+	margin-bottom: 50px;
+}
+
+.img img {
+	box-shadow:  3px 1px 3px 5px rgb(201, 184, 184);
+}
+
+.column1-contacts {
+	margin-bottom: 50px;
+}
+
+.list-contacts li {
+	padding: 7px 35px;
+	
+}
+
+.contacts-phone {
+	background: url(./img/icon/phone.ico) left no-repeat;
+}
+
+.contacts-email {
+	background: url(./img/icon/email.ico) left no-repeat;
+}
+
+.contacts-telegram {
+	background: url(./img/icon/telegram.ico) left no-repeat;
+}
+
+.contacts-telegram a {
+	color: rgb(77, 136, 238);
+}
+
+.contacts-telegram a:hover {
+	color: #1e656d;
+	transition: color 0.5s;
+}
+
+.contacts-github {
+	background: url(./img/icon/github.ico) left no-repeat;
+}
+
+.column1-perskills {
+	margin-bottom: 50px;
+}
+
+.column2 {
+	width: 75%;
+}
+
+.name-title {
+	margin-bottom: 7px;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.name-job {
+	font-size: 22px;
+	text-indent: 260px;
+	margin-bottom: 40px;
+}
+
+.aboutme {
+	margin-bottom: 30px;
+}
+
+.text-aboutme {
+	text-align: justify;
+}
+
+.workexp {
+	margin-bottom: 50px;
+}
+
+table{
+	width: 700px;
+}
+
+.myeducation {
+	margin-bottom: 50px;
+}
+
+.myeducation li {
+	padding-left: 20px;
+}
+
+.mycode {
+	margin-bottom: 50px;
+}
+
+.code {
+	background-color: rgb(251, 243, 243);
+	width: 300px;
+	border-radius: 5px;
+}
+
+.myprojects {
+	margin-bottom: 50px;
+}
+
+.icon {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70px;
+	background-color: #1e656d;
+}
+
+.git a, .year {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.git a:hover {
+	color: rgb(165, 162, 162);
+}
