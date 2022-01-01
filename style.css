@@ -54,7 +54,7 @@ body {
 }
 
 .header {
-	border: 2px solid red;
+	
 	background-color: #1e656d;
 	
 }
@@ -86,7 +86,6 @@ body {
 	color: rgb(159, 159, 154);
 }
 .main {
-	border: 2px solid red;
 	background-color: #f1f3ce;
 	color: #445161;
 }
@@ -99,36 +98,87 @@ body {
 }
 
 .section-img {
-	box-shadow: 3px 3px 15px 5px rgb(201, 184, 184);
+	box-shadow:  3px 1px 3px 5px rgb(201, 184, 184);
 }
 .section-profile {
-	margin-left: 90px;
+	margin-left: 50px;
 }
 .section-title {
-	margin-bottom: 10px;
-	font-size: 50px;
+	margin-bottom: 7px;
+	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	text-align: center;
 }
 .section-job {
-	font-size: 25px;
-	text-indent: 440px;
-	margin-bottom: 50px;
+	font-size: 22px;
+	text-indent: 442px;
+	margin-bottom: 20px;
 }
+
+.box-profile {
+	display: flex;
+	font-size: 18px;
+	line-height: 30px;
+}
+
 .section-aboutme {
+	margin-right: 40px;
+	
 }
-.title-aboutme {
-	font-size: 25px;
+.title {
+	font-size: 22px;
 	font-weight: 700;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 .text-aboutme {
-	font-size: 20px;
-	line-height: 32px;
+	
 	text-align: justify;
 }
+
+.section-contacts {
+	
+}
+
+.list-contacts {
+	
+}
+
+
+.contacts-phone {
+	background: url(./img/icon/phone.ico) left no-repeat;
+	padding-left: 30px;
+}
+
+.contacts-email {
+	background: url(./img/icon/email.ico) left no-repeat;
+	padding-left: 35px;
+}
+
+.contacts-telegram {
+	background: url(./img/icon/telegram.ico) left no-repeat;
+	padding-left: 35px;
+}
+
+.contacts-telegram a {
+	color: rgb(77, 136, 238);
+}
+
+.contacts-telegram a:hover {
+	color: #1e656d;
+	transition: color 0.5s;
+	
+}
+
+.contacts-github {
+	background: url(./img/icon/github.ico) left no-repeat;
+	padding-left: 35px;
+}
+
+
+
+
 
 
 .footer {
