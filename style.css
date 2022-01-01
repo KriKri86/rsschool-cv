@@ -205,6 +205,15 @@ table{
 	margin-bottom: 50px;
 }
 
+.myprojects a {
+	color: rgb(77, 136, 238);
+}
+
+.myprojects a:hover {
+	color: #1e656d;
+	transition: color 0.5s;
+}
+
 .icon {
 	display: flex;
 	justify-content: space-around;
